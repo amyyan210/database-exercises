@@ -10,4 +10,4 @@ SELECT name AS 'Albums released in the ''90''s' FROM albums WHERE release_date B
 
 SELECT name AS 'Albums with less than 20 million in sales' FROM albums WHERE sales < 20;
 
-SELECT name AS 'Albums with rock genre' FROM albums WHERE genre = 'rock';
+SELECT name AS 'Albums with rock genre' FROM albums WHERE genre LIKE '%rock%';
