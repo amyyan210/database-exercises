@@ -1,4 +1,5 @@
 USE codeup_test_db;
+truncate albums;
 
 INSERT INTO albums (artist, name, release_date, sales, genre)
 VALUES ('Michael Jackson','Thriller', 1982, 47.3, 'pop, rock, R&B'),
@@ -10,7 +11,7 @@ VALUES ('Michael Jackson','Thriller', 1982, 47.3, 'pop, rock, R&B'),
 ('Bee Gees','Saturday Night Fever', 1977, 20.6, 'disco'),
 ('Fleetwood Mac','Rumours', 1977, 27.9, 'soft rock'),
 ('Shania Twain', 'Come On Over', 1997, 29.6, 'country, pop'),
-('Led Zeppelin', 'Led Zeppelin IV', 1971, 29.0, 'hard rock, hevy metal, folk'),
+('Led Zeppelin', 'Led Zeppelin IV', 1971, 29.0, 'hard rock, heavy metal, folk'),
 ('Michael Jackson', 'Bad', 1987, 23.6, 'pop, funk, rock'),
 ('Alanis Morissette', 'Jagged Little Pill', 1995, 24.4, 'alternative rock'),
 ('Celine Dion', 'Falling Into You', 1996, 20.2, 'pop, soft rock'),
